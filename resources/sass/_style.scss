@@ -1,0 +1,15 @@
+input {
+    @apply bg-white px-2 py-1 border border-gray-300 shadow-md
+}
+
+input:active, input:focus {
+    @apply border-gray-400 outline-none
+}
+
+button.btn {
+    @apply bg-white px-2 py-1 border border-gray-300 shadow-md
+}
+
+button.btn:hover {
+    @apply bg-gray-100
+}
